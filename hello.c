@@ -1,22 +1,17 @@
 #include <stdio.h>
 
-enum weekDays {
-	sunday,
-	monday,
-	tuesday,
-	wednesday,
-	thursday,
-	friday,
-	saturday
-};
+int a,b,c;
+float f,g,h;
+
 
 int main()
-{
+{	
 	
-	enum weekDays today;
-	today = sunday;
+	a = 5;
+	b = 30;
+	c = a + b;
 
-	printf("Day %d \n", today + 1);
+	printf("Value of sum is: %d \n", c);
 	return 0;	
 	
 }
